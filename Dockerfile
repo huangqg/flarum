@@ -1,4 +1,4 @@
-FROM php:5-apache
+FROM index.tenxcloud.com/tenxcloud/php:5.5-apache
 
 RUN apt-get update && apt-get install -y \
         curl \
